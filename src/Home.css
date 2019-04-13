@@ -1,0 +1,30 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: calc(100vw / 10);
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center 100%;
+  text-shadow: 0 0 5px rgb(50, 50, 50);
+}
+
+.header h2 {
+  text-transform: uppercase;
+  color: rgb(230, 230, 230);
+  letter-spacing: 4px;
+}
+.header h5 {
+  color: rgb(230, 230, 230);
+}
+.header button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
