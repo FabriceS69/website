@@ -24,6 +24,9 @@ const styles = {
     height: 100,
     marginTop: 10,
   },
+  media: {
+    height: 100,
+  },
   chip: {
     marginLeft: 10,
     marginBottom: 10
@@ -32,7 +35,6 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-end',
     backgroundColor: Theme.palette.secondary.light
-
   }
 };
 
@@ -43,6 +45,10 @@ function TrainingItem({ training, classes }: { training: Training, classes: any 
   return (
     <Card className={classes.card}>
       <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTVf63Vm3XgOncMVSOy0-jSxdMT8KVJIc8WiWaevuWiPGe0Pm"
+        />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             { training.name }

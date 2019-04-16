@@ -1,0 +1,17 @@
+
+.background {
+    background-image : url('./images/background.jpg');
+    background-size : cover;
+    background-position : center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.mission {
+    text-transform : uppercase;
+    color: whitesmoke;
+}
